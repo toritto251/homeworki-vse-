@@ -1,0 +1,140 @@
+.table {
+    background-image: url("./img/bg.jpg");
+    width: 100%;
+    height: 500px;
+    background-size: 100%;
+    color: white;
+    background-color: rgba(0, 0,0, .5)
+}
+
+.table1ryad {
+    height: 250px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    font-size: 24px;
+}
+
+hr {
+    border: 2px solid white;
+    width: 30px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 11px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+
+.table2ryad {
+    text-align: center;
+    height: 200px;
+}
+
+.razruv1 {
+    width: 120px;
+}
+
+.razruv2 {
+    width: 120px;
+}
+
+.colorblack {
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+
+.hrcenter {
+    border: 2px solid gray;
+    width: 30px;
+    text-align: center;
+}
+
+input {
+    font-size: 16px;
+    padding: 10px;
+    width: 700px;
+    color: gray;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+button {
+    width: 240px;
+    height: 50px;
+    color: white;
+    background-color: #DE7141;
+}
+
+#table {
+    background-color: white;
+    color: black;
+    width: 1100px;
+}
+
+#square {
+    width: 150px;
+    height: 40px;
+    background: #287cc0;
+    background-image: url(./img/behance.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    border: 1px solid white;
+}
+
+#squar {
+    width: 150px;
+    height: 40px;
+    background: #59cfec;
+    background-image: url(./img/twitter.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    border: 1px solid white;
+}
+
+#squa {
+    width: 150px;
+    height: 40px;
+    background: orchid;
+    background-image: url(./img/dribbble.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    border: 1px solid white;
+}
+#squ {
+    width: 150px;
+    height: 40px;
+    background: darkblue;
+    background-image: url(./img/facebook.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    border: 1px solid white;
+}
+#sq {
+    width: 150px;
+    height: 40px;
+    background: red;
+    background-image: url(./img/google-plus.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    border: 1px solid white;
+    
+}
+.tabletri {
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(179, 174, 174);
+
+}
