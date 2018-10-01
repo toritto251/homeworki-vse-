@@ -1,0 +1,156 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+
+}
+
+.header {
+    margin: -79px;
+    padding: 100px 0 200px 0;
+}
+
+h1 {
+    text-align: center;
+    color: #0b6890;
+    font-size: 37px;
+    margin: 20px;
+}
+
+.logo {
+    text-align: center;
+    margin: 44px;
+}
+
+.panel {
+    background-color: antiquewhite;
+    border: 1px solid black;
+    height: 20px;
+}
+
+.col {
+    margin: 0px;
+    padding: 19px 19px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.col-1 {
+    width: 8.333333333333333%;
+}
+
+.col-2 {
+    width: 16.66666666666667%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33333%;
+}
+
+.col-6 {
+    padding: -1px 0px;
+    width: 50%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.row {
+    margin: 0 0px;
+    padding-bottom: 15px;
+}
+
+.clear {
+    clear: both;
+    height: 1px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.background {
+    background-image: url("./img/bg--footer.png");
+    width: 100%;
+    height: 300px;
+}
+
+.category {
+    list-style: none;
+    padding: 0px;
+}
+
+.category li {
+    display: inline-block;
+}
+.category a {
+    text-decoration: none;
+    color: gray;
+}
+.category li+li:before {
+    content: ',';
+    display: inline-block;
+    margin-right: 5px;
+}
+.article {
+    text-align: center;
+}
+.article p {
+    line-height: 2.5;
+    color: gray;
+    text-align: center;
+}
+.social {
+    text-align: left;
+    list-style: none;
+    padding: 0px;
+}
+.social li {
+    display: inline-block;
+    text-align: left;
+} 
+.social a{
+    margin: 8px;
+    color: gray;
+    float: left;
+}
+
+
+.title {
+    font-family: 'Fira Sans', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    text-align: right;
+}
+iframe {
+    width: 543px;
+    height: 328px;
+    flex: none;
+}
+.col col-6 {
+    float: left;
+}
+
+.footer {
+    height: 250px;
+}
+  
+.logo_2  {
+    text-align: center;
+    margin: 46px;
+    padding: 109px;
+}
+
+.footer p {
+    text-align: center;
+    color: white;
+    font-size: 17px;
+}
