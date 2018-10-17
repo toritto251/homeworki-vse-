@@ -4,9 +4,9 @@
     height: 500px;
 
 }
-.child_1:checked.parents_3{
 
-}
+.child_1:checked.parents_3 {}
+
 .table1ryad {
     height: 100px;
     text-align: center;
@@ -70,13 +70,13 @@ p {
     height: 200px;
     text-align: center;
     text-decoration: none;
-    
+
 }
 
 .izo:hover {
     background: url(./img/icon0--hover.png) no-repeat 50% 50%;
     color: aqua;
-    
+
 }
 
 .izo2 {
@@ -114,9 +114,29 @@ p {
 #table {
     width: 1000px;
     text-align: center;
-    
+
 }
+
 .table2ryad1 {
     width: 700px;
     text-align: center;
+}
+
+.card_logo {
+    width: 260px;
+    height: 260px;
+    background-color: cyan;
+    
+}
+
+.card:hover .card__front {
+    display: none;
+}
+
+.card:hover .card__back {
+    display: block;
+}
+.card__back {
+    background-color: #0023c0;
+    display: none;
 }

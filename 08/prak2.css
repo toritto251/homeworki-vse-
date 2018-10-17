@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+.ba-grid > [class*="ba-width-"]{
+    float: left;
+    padding-left: 20px;
+
+}
+.ba-grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+/* // добавить .ba-grid clearfix стили */
+.ba-grid{
+    margin-left: -20px;
+    /* padding: 0 15px;
+    width: 1200px;
+    padding-left: 20px; */
+}
+.ba-grid + .ba-grid {
+    margin-top: 20px;
+}
+[class*="ba-width-"] {
+    width: 100%;
+    
+}
+.ba-width-1-2{
+    width: 50%;
+}
+.ba-width-1-3{
+    width: 33.33333%;
+    
+}
+.ba-width-1-6 {
+    width: 16.6666666%;
+}
+.ba-width-2-2 {
+    width: 50%;
+}
+.ba-width-2-3{
+    width: 66.66666%;
+}
+/* // не нужно писать .ba-grid > .ba-width-1-2{} */
+
+
+.ba-container {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+}

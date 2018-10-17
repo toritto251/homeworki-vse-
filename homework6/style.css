@@ -1,0 +1,40 @@
+.col-6 {
+    padding: -1px 0px;
+    width: 50%;
+    line-height: 31px;
+}
+.clear {
+    clear: both;
+    height: 1px;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+i {
+    font-size: 18px;
+}
+.col {
+    margin: 0px;
+    padding: 19px 19px;
+    float: left;
+    box-sizing: border-box;
+}
+.header h1 {
+    text-align: center;
+
+}
+.row {
+    margin: 0 213px;
+    padding-bottom: 15px;
+}
+.header {
+    margin: -79px;
+    padding: 175px 0 175px 0;
+}
+img {
+    width: 487px;
+}
+h2 {
+    font-size: 24px;
+}

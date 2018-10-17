@@ -63,6 +63,7 @@ input {
     color: gray;
     border: none;
     border-bottom: 1px solid gray;
+    outline: none;
 }
 
 button {
@@ -70,6 +71,9 @@ button {
     height: 50px;
     color: white;
     background-color: #DE7141;
+}
+button:hover {
+    background-color: rgb(223, 132, 93);
 }
 
 #table {
@@ -89,6 +93,9 @@ button {
     border: 1px solid white;
 }
 
+#square:hover {
+    background-color: #629ecf;
+}
 #squar {
     width: 150px;
     height: 40px;
@@ -100,6 +107,9 @@ button {
     border: 1px solid white;
 }
 
+#squar:hover {
+    background-color: #7ee5ff;
+}
 #squa {
     width: 150px;
     height: 40px;
@@ -109,6 +119,9 @@ button {
     background-repeat: no-repeat;
     text-align: center;
     border: 1px solid white;
+}
+#squa:hover {
+    background-color: rgb(248, 163, 245);
 }
 #squ {
     width: 150px;
@@ -120,6 +133,9 @@ button {
     text-align: center;
     border: 1px solid white;
 }
+#squ:hover {
+    background-color: rgb(47, 47, 145);
+}
 #sq {
     width: 150px;
     height: 40px;
@@ -130,6 +146,9 @@ button {
     text-align: center;
     border: 1px solid white;
     
+}
+#sq:hover {
+    background-color: rgb(241, 85, 85);
 }
 .tabletri {
     text-align: center;
