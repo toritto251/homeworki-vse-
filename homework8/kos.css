@@ -4,8 +4,8 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 .wrapper{
-    width: 100%;
-    text-align: center;
+    width: 942px;
+    margin: 0 auto;
 }
 .container{
     width: 100%;
@@ -14,7 +14,7 @@ body{
 .container2{
     width: 100%;
     text-align: center;
-    padding-left: 150px;
+     margin-top: 60px;
 }
 .row{
     width: 100%;
@@ -33,7 +33,7 @@ body{
 .box{
     width: 235px;
     height: 422px;
-    border: 1px solid #6D737B;
+    border: 1px solid whitesmoke;
     text-align: center;
     margin: center;
     padding-top: 90px;
@@ -47,7 +47,6 @@ body{
     color: #FFFFFF;
 }
 h1{
-    color: #6D737B;
     text-align: center;
     font-family: 'Montserrat Bold', sans-serif;
     letter-spacing: 8px;
@@ -64,5 +63,6 @@ i{
     font-size: 50px;
 }
 h6{
-    padding-right: 40px;
+   text-align: center;
+   margin-top: 45px;
 }
