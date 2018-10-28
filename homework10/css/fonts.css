@@ -1,0 +1,36 @@
+
+
+
+
+
+@font-face {
+    font-family: OpenSans;
+    src: url('../fonts/OpenSans-Light.woff') format('woff'),
+         url('../fonts/OpenSans-Light.woff2') format('woff2');
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url('../fonts/OpenSans-Regular.woff') format('woff'),
+         url('../fonts/OpenSans-Regular.woff2') format('woff2');
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: Rufina;
+    src: url('../fonts/Rufina-Bold.woff') format('woff'),
+         url('../fonts/Rufina-Bold.woff2') format('woff2');
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: Rufina;
+    src: url('../fonts/Rufina-Regular.woff') format('woff'),
+         url('../fonts/Rufina-Regular.woff2') format('woff2');
+    font-style: normal;
+
+}
