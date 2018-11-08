@@ -8,8 +8,15 @@
     height: auto;
 }
 
+.logo {
+    
+    display: flex;
+    justify-content: center;
+}
+
 .logo__link {
     display: block;
+    height: 101px;
 }
 
 .logo__img {
@@ -20,7 +27,9 @@
     padding: 29px 0px;
 }
 
-.nav {}
+.nav {
+    margin-top: 28px;
+}
 
 .nav__list {
     list-style: none;
@@ -80,6 +89,7 @@
     padding-top: 24px;
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 
 .shadow-menu-img {
@@ -131,7 +141,7 @@
 .nav__link-2--active,
 .nav__link-2:hover {
     background-color: #a19795;
-    font-weight: 700;
+    font-weight: 400;
     color: white;
     padding: 6px 8px;
     font-size: 16px;
