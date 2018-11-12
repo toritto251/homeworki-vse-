@@ -13,7 +13,7 @@ body {
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100%;
-    z-index: 1;
+    z-index: 0;
     height: auto;
 }
 
@@ -24,7 +24,7 @@ body {
     min-height: 737px;
     background-size: 100%;
     display: flex;
-    z-index: 0;
+    z-index: 1;
 }
 
 .eftakher--background {
@@ -161,6 +161,7 @@ body {
     padding: 0px;
 }
 
+
 .quality__link {
     color: white;
     font-family: 'Karla', sans-serif;
@@ -264,7 +265,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 29px;
-    transition: ease .3s color;
+    transition: ease .3s;
 }
 
 
@@ -1035,3 +1036,4 @@ button:hover {
 .footer__text a {
     text-decoration: none;
 }
+
