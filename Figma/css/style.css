@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Roboto');
+
+
+
+body {
+    background-image: url('../img/AmorLandingpage.jpg');
+    background-position: top;
+    background-size: cover;
+    z-index: 1;
+}
+
+
+.header {
+    background-image: url('../img/background-block1.png');
+    display: flex;
+    min-height: 620px;
+    background-size: cover;
+    z-index: 2;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 620px;
+    padding-right: 23px;
+}
+
+.logo img {
+    width: 434px;
+    height: 399px;
+    text-align: center;
+    padding-top: 6px;
+    padding-left: 4px;
+}
+
+
+.review {
+    background-image: url('../img/background-block2.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    min-height: 399px;
+}
+
+
+.review__text {
+    padding-top: 48px;
+    font-style: normal;
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
+    line-height: 28.5px;
+    text-align: center;
+    padding-right: 45px;
+    letter-spacing: 0.25px;
+}
+
+.review__text p {
+    margin-bottom: 0px;
+}
+
+
+.review__img {
+    padding-right: 47px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.review__img img {
+    height: 75px;
+    width: 74px;
+}
+
+
+.review__img p {
+    margin-top: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 18.5px;
+    line-height: 19px;
+    padding-left: 6px;
+    padding-top: 7px;
+}
+
+.review__img span {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    padding-right: 6px;
+    color: #565656;
+}
+
+.white__polosochka {
+    min-height: 22px;
+}
+
+.slider {
+    background-image: url('../img/background-block3.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    min-height: 767px;
+    background-size: cover;
+}
+
+.slider__header {
+    display: flex;
+}
+
+.slider__header p {
+    margin-top: 54px;
+    margin-bottom: 0px;
+    font-family: libertinage;
+    font-size: 50px;
+    line-height: 96px;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery {
+    background-image: url('../img/background-block4.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    min-height: 865px;
+    background-size: cover;
+}
+
+.gallery__header {
+    display: flex;
+    justify-content: center;
+    margin-top: 68px;
+    font-size: 21px;
+}
+
+.site--1 {
+    margin-left: 118px;
+}
+
+.site--1 img {
+    width: 286px;
+    height: 284px;
+}
+
+.site--2 {
+    margin-left: -8px;
+}
+
+.site--2 img {
+    width: 285px;
+    height: 284px;
+}
+
+.site--3 {
+    margin-left: -49px;
+}
+
+.site--3 img {
+    width: 286px;
+    height: 284px;
+}
+
+.gallery__video {
+    margin-left: 118px;
+    padding-top: 19px;
+}
+
+.gallery__video2 {
+    margin-left: -13px;
+    padding-top: 19px;
+}
+
+.likes{
+    background-image: url('../img/background-block5.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    min-height: 371px;
+    background-size: cover;
+}
