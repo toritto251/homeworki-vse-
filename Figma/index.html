@@ -10,15 +10,20 @@
     <link rel="stylesheet" type="text/css" media="screen" href="./css/normalize.css" />
     <!-- add fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="./plugins/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./plugins/slick/slick-theme.css" />
     <!-- add icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
         crossorigin="anonymous">
-    <!-- fancy-box -->
-    <link rel="stylesheet" href="./fancybox/src/css/core.css">
+    <!-- style for fancy-box -->
+    <link rel="stylesheet" type="text/css" href="./plugins/fancybox-master/dist/jquery.fancybox.min.css">
     <!-- main styles -->
     <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="./css/grid.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="./css/utilities.css" />
+
 </head>
 
 <body>
@@ -33,12 +38,11 @@
         </div>
     </div>
     <!-- header end -->
-    <!-- /////////////// -->
     <!-- block-2 review start -->
     <div class="review">
         <div class="container">
             <div class="row">
-                <div class="col col-8 offset-2">
+                <div class="col col-9 offset-2">
                     <div class="review__text">
                         <p>
                             “Set your ceremony apart! <br>
@@ -59,80 +63,393 @@
             </div>
         </div>
     </div>
-    <div class="white__polosochka">
-    </div>
     <!-- block-2 review end -->
-    <!-- ////////////////// -->
-    <!-- block-3 slider start -->
-    <div class="slider">
+    <!-- block-3 projects start -->
+    <div class="projects">
         <div class="container">
-            <div class="slider__header">
+            <div class="projects__header">
                 <div class="row">
                     <div class="col">
-                        <p>
+                        <h2>
                             Our unforgettable projects
-                        </p>
+                        </h2>
                     </div>
                 </div>
             </div>
+            <div class="slider__width">
+                <div class="row">
+                    <div class="col ">
+                        <div class="slider-wrap">
+                            <div class="slider">
+                                <div class="slide">
+                                    <div class="font">
+                                        <div class="view">
+                                            <div class="view__foto"><img src="./img/slider-block1.png" alt=""></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <div class="font">
+                                        <div class="view">
+                                            <div class="view__foto"><img src="./img/slider-block2.png" alt=""></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <div class="font">
+                                        <div class="view">
+                                            <div class="view__foto"><img src="./img/slider-block3.png" alt=""></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <div class="font">
+                                        <div class="view">
+                                            <div class="view__foto"><img src="./img/slider-block4.png" alt=""></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <div class="font">
+                                        <div class="view">
+                                            <div class="view__foto"><img src="./img/slider-block5.png" alt=""></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <div class="font">
+                                        <div class="view">
+                                            <div class="view__foto"><img src="./img/slider-block6.png" alt=""></div>
+                                        </div>
+                                    </div>
+                                </div>
 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects__footer">
+                <p>
+                    We can make your wedding great.
+                </p>
+
+            </div>
+            <a href="javascript:void(0)" class="btn btn--inline">CONTACT US</a>
         </div>
     </div>
     <!-- block-3 slider end -->
-    <!-- /////////////////////////// -->
     <!-- block-4 gallery start -->
     <div class="gallery">
         <div class="container">
             <div class="gallery__header">
                 <h1> Gallery </h1>
             </div>
-            <div class="row">
-                <div class="col ">
-                    <div class="site--1">
-                        <a href="./img/bl-4img-1big.png">
-                            <img src="./img/bl-4img-1sm.png" alt=""> </a>
+            <div class="gallery__foto">
+                <div class="row">
+                    <div class="col col-4">
+                        <div class="gallery__content">
+                            <a data-fancybox="gallery" href="./img/bl-4img-1big.png">
+                                <img src="./img/bl-4img-1sm.png"></a>
+                        </div>
                     </div>
-                </div>
-                <div class="col ">
-                    <div class="site--2">
-                        <a href="./img/bl-4img-2big.png">
-                            <img src="./img/bl-4img-2sm.png" alt=""> </a>
+                    <div class="col col-4">
+                        <div class="gallery__content">
+                            <a data-fancybox="gallery" href="./img/bl-4img-2big.png">
+                                <img src="./img/bl-4img-2sm.png"></a>
+                        </div>
                     </div>
-                </div>
-                <div class="col ">
-                    <div class="site--3">
-                        <a href="./img/bl-4img-3big.png">
-                            <img src="./img/bl-4img-3sm.png" alt=""> </a>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="gallery__video">
-                        <iframe width="445" height="293" src="https://www.youtube.com/embed/nIMooG-bk-Q" frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="gallery__video2">
-                        <iframe width="445" height="293" src="https://www.youtube.com/embed/nIMooG-bk-Q" frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
+                    <div class="col col-4">
+                        <div class="gallery__content">
+                            <a data-fancybox="gallery" href="./img/bl-4img-3big.png">
+                                <img src="./img/bl-4img-3sm.png"></a>
+                        </div>
                     </div>
                 </div>
             </div>
+            <!-- <div class="gallery__video">
+                <div class="row">
+                    <div class="col col-6">
+                        <div class="gallery__contents">
+                            <iframe width="575" height="379" src="https://www.youtube.com/embed/nIMooG-bk-Q"
+                                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col col-6">
+                        <div class="gallery__contents">
+                            <iframe width="575" height="379" src="https://www.youtube.com/embed/nIMooG-bk-Q"
+                                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
         </div>
     </div>
-    <!-- .block-4 gallery end  -->
-    <!-- ///////////////////////// -->
+    <!-- block-4 gallery end  -->
     <!-- block-5 likes start -->
     <div class="likes">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col col-10 offset-1">
                     <div class="likes__content">
-                        
+                        <h1> 160+ <br> <span> Weddings </span> </h1>
+                        <h1> 115+ <br> <span> Locations </span> </h1>
+                        <h1> 130+ <br> <span> Cakes </span> </h1>
+                        <h1> 100% <br> <span> Satisfaction </span> </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- block-5 likes end -->
+    <!-- block-6 team start -->
+    <div class="team">
+        <div class="container">
+            <div class="team__header">
+                <h1>
+                    Our dream team
+                </h1>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="team__content">
+                        <div class="team__people team__people--img1-1">
+                            <img src="./img/block-team 1-1.png" alt="">
+                            <h3>
+                                Linda Green <br>
+                                <span>Coordinator</span>
+                            </h3>
+                            <ul class="social">
+                                <li class="social__item">
+                                    <a href="javascript:void(0)" class="social__link">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="javascript:void(0)" class="social__link">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="javascript:void(0)" class="social__link">
+                                        <i class="fab fa-telegram-plane"></i>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="team__content">
+                        <div class="team__people">
+                            <img src="./img/block-team 1-1.png" alt="">
+                            <h3>
+                                Linda Green
+                            </h3>
+                            <p>
+                                Coordinator
+                            </p>
+                            <ul class="social">
+                                <li class="social__item">
+                                    <a href="javascript:void(0)" class="social__link">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="javascript:void(0)" class="social__link">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="javascript:void(0)" class="social__link">
+                                        <i class="fab fa-telegram-plane"></i>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="team__content">
+                        <div class="team__people">
+                            <img src="./img/block-team 1-1.png" alt="">
+                            <h3>
+                                Linda Green
+                            </h3>
+                            <p>
+                                Coordinator
+                            </p>
+                            <ul class="social">
+                                <li class="social__item">
+                                    <a href="javascript:void(0)" class="social__link">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="javascript:void(0)" class="social__link">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="javascript:void(0)" class="social__link">
+                                        <i class="fab fa-telegram-plane"></i>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="team__content">
+                        <div class="team__people">
+                            <img src="./img/block-team 1-1.png" alt="">
+                            <h3>
+                                Linda Green
+                            </h3>
+                            <p>
+                                Coordinator
+                            </p>
+                            <ul class="social">
+                                <li class="social__item">
+                                    <a href="javascript:void(0)" class="social__link">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="javascript:void(0)" class="social__link">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="javascript:void(0)" class="social__link">
+                                        <i class="fab fa-telegram-plane"></i>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="team__content">
+                        <div class="team__people">
+                            <img src="./img/block-team 1-1.png" alt="">
+                            <h3>
+                                Linda Green
+                            </h3>
+                            <p>
+                                Coordinator
+                            </p>
+                            <ul class="social">
+                                <li class="social__item">
+                                    <a href="javascript:void(0)" class="social__link">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="javascript:void(0)" class="social__link">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="javascript:void(0)" class="social__link">
+                                        <i class="fab fa-telegram-plane"></i>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="team__content">
+                        <div class="team__people">
+                            <img src="./img/block-team 1-1.png" alt="">
+                            <h3>
+                                Linda Green
+                            </h3>
+                            <p>
+                                Coordinator
+                            </p>
+                            <ul class="social">
+                                <li class="social__item">
+                                    <a href="javascript:void(0)" class="social__link">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="javascript:void(0)" class="social__link">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="javascript:void(0)" class="social__link">
+                                        <i class="fab fa-telegram-plane"></i>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="team__form">
+                <div class="row">
+                    <div class="col col-12">
+                        <div class="form__header">
+                            <h1>
+                                Write us
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- block-6 team end -->
+    <!-- footer start -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col col-5">
+                    <div class="footer__content">
+                        <p>
+                                Opening TBA <br>
+                                Monte Carlo Sun <br>
+                                Boulevard d'Italie,98000 Monaco <br>
+                         <a href="tel:">+44 (0) 203 589 4780 </a> <br>
+                         <ul class="social__footer">
+                                <li class="social__item">
+                                    <a href="javascript:void(0)" class="social__link">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="javascript:void(0)" class="social__link">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="javascript:void(0)" class="social__link">
+                                        <i class="fab fa-telegram-plane"></i>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </p>
+                    </div>
+                </div>
+                <div class="col col-7">
+                    <div class="footer__content footer__content--margin-left">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5445.515891945928!2d31.983264053643804!3d46.96644564817154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1542444214247" width="656" height="412" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                <!-- <img src="./img/Map.png"  alt="" style="height: 416px";> -->
                     </div>
                 </div>
             </div>
@@ -144,23 +461,21 @@
 
 
 
+    <!-- scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./plugins/fancybox-master/dist/jquery.fancybox.min.js"></script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="./fancybox/src/js/core.js"></script>
+    <script type="text/javascript" src="./plugins/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.slider').slick({
+                // infinite: true,
+                dots: false,
+                slidesToShow: 3,
+                slidesToScroll: 1
+            });
+        });
+    </script>
 </body>
 
 </html>
