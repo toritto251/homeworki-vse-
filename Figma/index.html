@@ -17,6 +17,8 @@
     <!-- add icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
         crossorigin="anonymous">
+    <!-- animate css -->
+    <link rel="stylesheet" href="./plugins/animate.css-master/animate.min.css">
     <!-- style for fancy-box -->
     <link rel="stylesheet" type="text/css" href="./plugins/fancybox-master/dist/jquery.fancybox.min.css">
     <!-- main styles -->
@@ -28,18 +30,18 @@
 
 <body>
     <!-- header start -->
-    <div class="header">
+    <div class="header animated fadeInLeftBig">
         <div class="container">
             <div class="logo">
-                <a href="javascript:void(0)">
-                    <img src="./img/LOGO.png" alt="logo">
+                <a href="index.html">
+                    <img src="./img/LOGO.png" alt="logo" class="animated">
                 </a>
             </div>
         </div>
     </div>
     <!-- header end -->
     <!-- block-2 review start -->
-    <div class="review">
+    <div class="review animated fadeInRightBig">
         <div class="container">
             <div class="row">
                 <div class="col col-9 offset-2">
@@ -167,24 +169,24 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="gallery__video">
+            <div class="gallery__video">
                 <div class="row">
                     <div class="col col-6">
                         <div class="gallery__contents">
-                            <iframe width="575" height="379" src="https://www.youtube.com/embed/nIMooG-bk-Q"
+                            <iframe width="575" height="379" src="https://www.youtube.com/embed/lRmcfz-t7Go"
                                 frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
                         </div>
                     </div>
                     <div class="col col-6">
                         <div class="gallery__contents">
-                            <iframe width="575" height="379" src="https://www.youtube.com/embed/nIMooG-bk-Q"
+                            <iframe width="575" height="379" src="https://www.youtube.com/embed/q_th_D4VHC0"
                                 frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
-            </div> -->
+            </div>
         </div>
     </div>
     <!-- block-4 gallery end  -->
@@ -213,10 +215,14 @@
                 </h1>
             </div>
             <div class="row">
-                <div class="col">
+                <div class="col col-4">
                     <div class="team__content">
-                        <div class="team__people team__people--img1-1">
-                            <img src="./img/block-team 1-1.png" alt="">
+                        <div class="content__eclipse">
+                            <div class="team__people team__people--img1-1">
+                                <img src="./img/block-team 1-1hover.png" alt="">
+                            </div>
+                        </div>
+                        <div class="team__people">
                             <h3>
                                 Linda Green <br>
                                 <span>Coordinator</span>
@@ -238,20 +244,21 @@
                                     </a>
                                 </li>
                             </ul>
-
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="team__content">
-                        <div class="team__people">
-                            <img src="./img/block-team 1-1.png" alt="">
+                <div class="col col-4">
+                    <div class="team__content team-1-2">
+                        <div class="content__eclipse">
+                            <div class="team__people team__people--img1-1">
+                                <img src="./img/block-team 1-2hover.png" alt="">
+                            </div>
+                        </div>
+                        <div class="team__people team__people1-2">
                             <h3>
-                                Linda Green
+                                Eva Smith <br>
+                                <span> Florist </span>
                             </h3>
-                            <p>
-                                Coordinator
-                            </p>
                             <ul class="social">
                                 <li class="social__item">
                                     <a href="javascript:void(0)" class="social__link">
@@ -269,20 +276,21 @@
                                     </a>
                                 </li>
                             </ul>
-
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="team__content">
-                        <div class="team__people">
-                            <img src="./img/block-team 1-1.png" alt="">
+                <div class="col col-4">
+                    <div class="team__content team-1-3">
+                        <div class="content__eclipse">
+                            <div class="team__people team__people--img1-1">
+                                <img src="./img/block-team 1-3hover.png" alt="">
+                            </div>
+                        </div>
+                        <div class="team__people team__people1-3">
                             <h3>
-                                Linda Green
+                                Kevin Campbell <br>
+                                <span> Master of ceremonies </span>
                             </h3>
-                            <p>
-                                Coordinator
-                            </p>
                             <ul class="social">
                                 <li class="social__item">
                                     <a href="javascript:void(0)" class="social__link">
@@ -300,22 +308,22 @@
                                     </a>
                                 </li>
                             </ul>
-
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col">
+
+                <div class="col col-4">
                     <div class="team__content">
+                        <div class="content__eclipse">
+                            <div class="team__people team__people--img1-1">
+                                <img src="./img/block-team 2-1hover.png" alt="">
+                            </div>
+                        </div>
                         <div class="team__people">
-                            <img src="./img/block-team 1-1.png" alt="">
                             <h3>
-                                Linda Green
+                                George Walker <br>
+                                <span>Photographer</span>
                             </h3>
-                            <p>
-                                Coordinator
-                            </p>
                             <ul class="social">
                                 <li class="social__item">
                                     <a href="javascript:void(0)" class="social__link">
@@ -333,20 +341,21 @@
                                     </a>
                                 </li>
                             </ul>
-
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="team__content">
-                        <div class="team__people">
-                            <img src="./img/block-team 1-1.png" alt="">
+                <div class="col col-4">
+                    <div class="team__content team-1-2">
+                        <div class="content__eclipse">
+                            <div class="team__people team__people--img1-1">
+                                <img src="./img/block-team 2-2hover.png" alt="">
+                            </div>
+                        </div>
+                        <div class="team__people team__people1-2">
                             <h3>
-                                Linda Green
+                                George Walker <br>
+                                <span> Singer </span>
                             </h3>
-                            <p>
-                                Coordinator
-                            </p>
                             <ul class="social">
                                 <li class="social__item">
                                     <a href="javascript:void(0)" class="social__link">
@@ -364,20 +373,21 @@
                                     </a>
                                 </li>
                             </ul>
-
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="team__content">
-                        <div class="team__people">
-                            <img src="./img/block-team 1-1.png" alt="">
+                <div class="col col-4">
+                    <div class="team__content team-1-3">
+                        <div class="content__eclipse">
+                            <div class="team__people team__people--img1-1">
+                                <img src="./img/block-team 2-3hover.png" alt="">
+                            </div>
+                        </div>
+                        <div class="team__people team__people1-3">
                             <h3>
-                                Linda Green
+                                Harris <br>
+                                <span> DJ </span>
                             </h3>
-                            <p>
-                                Coordinator
-                            </p>
                             <ul class="social">
                                 <li class="social__item">
                                     <a href="javascript:void(0)" class="social__link">
@@ -395,7 +405,6 @@
                                     </a>
                                 </li>
                             </ul>
-
                         </div>
                     </div>
                 </div>
@@ -408,10 +417,53 @@
                                 Write us
                             </h1>
                         </div>
+                        <form action="#" method="get">
+                            <div class="form__content">
+                                <p>
+                                    Dear Amor agency, my name is
+                                    <label>
+                                        <input required type="text" name="name" id="input__text" placeholder="">
+                                    </label>
+                                    and I am organising a <br>
+                                    wedding on <label>
+                                        <input required type="date" name="name" id="input__text" placeholder="">
+                                    </label>for <label>
+                                        <input required type="number" min="0" max="1000" step="1" value="0" name="name"
+                                            id="input__text" placeholder="">
+                                    </label> guests with <br>
+                                    a total budget of <select required name="menu" size="1">
+                                        <option value="first">&pound; 50k</option>
+                                        <option selected="selected" value="second">&pound; 100k</option>
+                                        <option value="third">&pound; 500k</option>
+                                        <option value="fourth">So that was beautiful</option>
+                                    </select> We are looking for a venue in or <br>
+                                    around <label>
+                                        <select required name="menu" size="1">
+                                            <option value="first">Central London</option>
+                                            <option selected="selected" value="second"> Las Vegas (US)</option>
+                                            <option value="third">Fiji, city of Suva</option>
+                                            <option value="fourth">Paris, France</option>
+                                        </select> and we will require <label>
+                                            <input required type="text" name="name" id="input__text" placeholder="">
+                                        </label> for the event.
+                                </p>
+
+                                <p>
+                                    The event planners at Amor agency can contact me by email on <br>
+                                    <label>
+                                        <input required type="email" name="name" id="input__text" placeholder="">
+                                    </label>
+                                    and by phone on <label>
+                                        <input required type="tel" name="name" id="input__text" placeholder="" >
+                                    </label>.
+                                </p>
+                                <input type="submit" value="SEND" class="button btn--inline">
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <!-- block-6 team end -->
     <!-- footer start -->
@@ -421,11 +473,11 @@
                 <div class="col col-5">
                     <div class="footer__content">
                         <p>
-                                Opening TBA <br>
-                                Monte Carlo Sun <br>
-                                Boulevard d'Italie,98000 Monaco <br>
-                         <a href="tel:">+44 (0) 203 589 4780 </a> <br>
-                         <ul class="social__footer">
+                            Opening TBA <br>
+                            Monte Carlo Sun <br>
+                            Boulevard d'Italie,98000 Monaco <br>
+                            <a href="tel:">+44 (0) 203 589 4780 </a> <br>
+                            <ul class="social__footer">
                                 <li class="social__item">
                                     <a href="javascript:void(0)" class="social__link">
                                         <i class="fab fa-instagram"></i>
@@ -448,8 +500,9 @@
                 </div>
                 <div class="col col-7">
                     <div class="footer__content footer__content--margin-left">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5445.515891945928!2d31.983264053643804!3d46.96644564817154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1542444214247" width="656" height="412" frameborder="0" style="border:0" allowfullscreen></iframe>
-                                <!-- <img src="./img/Map.png"  alt="" style="height: 416px";> -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5445.515891945928!2d31.983264053643804!3d46.96644564817154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1542444214247"
+                            width="656" height="412" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <!-- <img src="./img/Map.png"  alt="" style="height: 416px";> -->
                     </div>
                 </div>
             </div>
@@ -472,9 +525,15 @@
                 // infinite: true,
                 dots: false,
                 slidesToShow: 3,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                speed: 1000,
             });
         });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('img').addClass('flip');
+        })
     </script>
 </body>
 
